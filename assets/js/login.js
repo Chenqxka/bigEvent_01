@@ -13,7 +13,7 @@ $(function() {
 
   // 从 layui 中获取 form 对象
   var form = layui.form
-  var layer = layui.layer
+  var layer = layui.layer/* 导入弹出层模块 */
   // 通过 form.verify() 函数自定义校验规则
   form.verify({
     // 自定义了一个叫做 pwd 校验规则
