@@ -60,7 +60,7 @@ $(function () {
                 // 将服务器返回的用户唯一标识，保存到本地存储
                 localStorage.setItem('token', res.token)
                 // 跳转到后台主页
-                location.href = '../index.html'
+                location.href = '/index.html'
             }
         })
     })
